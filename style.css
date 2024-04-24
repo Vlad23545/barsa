@@ -1,0 +1,9 @@
+.wraper{
+
+}
+:root{
+    main-color: #ED1639;
+}
+.menu-top{
+    background-color: var(--main-color);
+}
