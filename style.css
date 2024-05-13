@@ -1,9 +1,70 @@
-.wraper{
-
+body{
+    background-color: GREY;
 }
 :root{
-    main-color: #ED1639;
+    --main-color: #ED1639;
+    --background-color:grey;
+
+}
+main{
+    background-color: white;
+    
+}
+.menu-top__nav{
+display: flex;
+
 }
 .menu-top{
+    background-color: var(--main-color);    
+    display: inline-block;
+    width: 100%;
+}
+
+.sponsor{
+    height: 90px;
+    width: 310px;
+    border-radius:15%;
+    padding: 3px;
+}
+.logo{
+    width: 98px;
+    height: 98px;
+}
+.header__logo-2{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-top-2{
+    height: 44px;
+    background-color:var(--main-color);
+    border: 1px solid #000; 
+    padding: 3px;           
+    display: flex;
+    justify-content:space-between;
+
+}
+.barsa-sqere{
+    width: 108px;
+    height: 108px;
     background-color: var(--main-color);
+    border-radius: 15%; 
+    display: flex;
+    justify-content:center;
+}
+.sponsor-rectangle{
+    height: 108px;
+    width: 357px;
+    background-color: white;
+    border-radius: 15%;
+    display: flex;
+    justify-content:center;
+    padding: 3px; 
+}
+ul{
+    padding: 4px; 
+ }
+.menu-button{
+    color: white;
+    padding-left: 70px;
+
 }
