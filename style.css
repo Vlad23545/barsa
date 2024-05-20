@@ -1,5 +1,5 @@
 body{
-    background-color: GREY;
+    background-color: rgb(204, 196, 196);
 }
 :root{
     --main-color: #ED1639;
@@ -19,12 +19,13 @@ display: flex;
     display: inline-block;
     width: 100%;
 }
+.news-side{
+display: flex;
 
+}
 .sponsor{
-    height: 90px;
-    width: 310px;
+    width: 350px;
     border-radius:15%;
-    padding: 3px;
 }
 .logo{
     width: 98px;
@@ -51,20 +52,29 @@ display: flex;
     display: flex;
     justify-content:center;
 }
-.sponsor-rectangle{
-    height: 108px;
-    width: 357px;
-    background-color: white;
-    border-radius: 15%;
-    display: flex;
-    justify-content:center;
-    padding: 3px; 
-}
+
 ul{
     padding: 4px; 
  }
 .menu-button{
     color: white;
     padding-left: 70px;
-
+}
+.main__news-block{
+    margin-top:63px;
+    background-color: white;
+    padding-left:96px;
+    padding-right:101px;
+    display: flex;
+}
+.latest-news{
+    width:40%;
+    height:42px;
+    background-color: var(--main-color);
+    color: white;
+    padding-top:3px;
+    text-align: center;
+}
+.sub-news{
+    display: flex;
 }
